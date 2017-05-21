@@ -58,7 +58,7 @@ x = Color.RED
 <p dir="rtl">در این روش به دلیل این‌که شمارنده به صورت یک کلاس پیاده سازی شده است می توان ویژگی ها آن را تغییر داد و با توجه به نیاز برنامه نویس از آن استفاده کرد. برای مثال می توان نوع نمایش آن را تغییر داد. در قطعه کد زیر، برای نمونه، تغییری در کلاس شمارنده ای که در مثال بالا ارائه کرده بودیم ، می‌دهیم. </p>
 
 ```markdown
-class Animal:
+class Color:
    def __init__(self, name):
        self.name = name
 
@@ -66,14 +66,14 @@ class Animal:
        return self.name
 
    def __repr__(self):
-       return "<Animal: %s>" % self
+       return "<Color: %s>" % self
 
-Animal.DOG = Animal("dog")
-Animal.CAT = Animal("cat")
+Color.RED = Color("red")
+Color.BLUE = Color("blue")
 
->>> x = Animal.DOG
+>>> x = Color.RED
 >>> x
-<Animal: dog>
+<Color: red>
 >>> x == 1
 False
 ```
