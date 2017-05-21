@@ -78,39 +78,4 @@ Color.BLUE = Color("blue")
 False
 ```
 
-
-You can use the [editor on GitHub](https://github.com/mohammadroghani/research-assignment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mohammadroghani/research-assignment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p dir="rtl">با توجه به مطالب بالا می توان این نتیجه را گرفت که با توجه به نیاز برنامه نویس ، می‌توان از حالات مختلف برای پیاده سازی شمارنده استفاده کرد. برای مثال اگر نیاز های زیادی دارد می تواند از کتابخانه های آماده استفاده کند یا اگر بخواهد ویژگی خاصی را به شمارنده اضافه کند ، می‌تواند شمارنده را به صورت دستی پیاده سازی کند و قابلیت مورد نظر را به آن اضافه کند و اگر به صورت ساده می خواهد از شمارنده استفاده کند ، می تواند از شمارنده خود پایتون استفاده کند. </p>
