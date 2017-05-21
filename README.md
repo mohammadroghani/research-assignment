@@ -10,7 +10,7 @@
 <p>در قطعه کد زیر نحوه استفاده از دو کتابخانه بالا توضیح داده شده است.</p>
 
 ```markdown
-# from aenum import Enum  # for the aenum version
+from aenum import Enum  # for the aenum version
 Animal = Enum('Animal', 'ant bee cat dog')
 Animal.ant  # returns <Animal.ant: 1>
 Animal['ant']  # returns <Animal.ant: 1> (string lookup)
