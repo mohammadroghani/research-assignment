@@ -7,16 +7,26 @@
 - **$ pip install aenum**
 - **$ pip install enum34**
 
-<p>در قطعه کد زیر نحوه استفاده از دو کتابخانه بالا توضیح داده شده است.</p>
+<p dir="rtl">در قطعه کد زیر نحوه استفاده از دو کتابخانه بالا توضیح داده شده است.</p>
 
 ```markdown
 from aenum import Enum  # for the aenum version
+
 Animal = Enum('Animal', 'ant bee cat dog')
 Animal.ant  # returns <Animal.ant: 1>
 Animal['ant']  # returns <Animal.ant: 1> (string lookup)
 Animal.ant.name  # returns 'ant' (inverse lookup)
 ```
 
+<p dir="rtl">یا به طور مشابه می توان مانند قطعه کد زیر عمل کرد که مانند کد بالا عمل می کند.</p>
+
+```markdown
+class Animal(Enum):
+    ant = 1
+    bee = 2
+    cat = 3
+    dog = 4
+```
 
 
 You can use the [editor on GitHub](https://github.com/mohammadroghani/research-assignment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
