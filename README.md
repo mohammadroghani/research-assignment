@@ -1,5 +1,14 @@
 ## Welcome to GitHub Pages
-
+<style>
+@font-face {
+  font-family: Samim;
+  src: url('Samim.eot');
+  src: url('Samim.eot?#iefix') format('embedded-opentype'),
+       url('Samim.woff') format('woff'),
+       url('Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+</style>
 <p dir="rtl">سلام خوبی چطوری؟</p>
 
 You can use the [editor on GitHub](https://github.com/mohammadroghani/research-assignment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
