@@ -10,7 +10,7 @@
 <p dir="rtl">در قطعه کد زیر نحوه استفاده از دو کتابخانه بالا توضیح داده شده است.</p>
 
 ```markdown
-from aenum import Enum  `# for the aenum version`
+from aenum import Enum  # for the aenum version
 
 Animal = Enum('Animal', 'ant bee cat dog')
 Animal.ant  # returns <Animal.ant: 1>
@@ -43,6 +43,39 @@ def enum(*sequential, **named):
 0
 >>> Numbers.ONE
 1
+```
+
+<p dir="rtl">روش پر کاربرد دیگری که می توان از آن برای پیاده سازی شمارنده استفاده کرد به شکل زیر است:</p>
+
+```markdown
+class Color:
+    RED = 1
+    BLUE = 2
+
+x = Color.RED
+```
+
+<p dir="rtl">در این روش به دلیل این‌که شمارنده به صورت یک کلاس پیاده سازی شده است می توان ویژگی ها آن را تغییر داد و با توجه به نیاز برنامه نویس از آن استفاده کرد. برای مثال می توان نوع نمایش آن را تغییر داد. در قطعه کد زیر، برای نمونه، تغییری در کلاس شمارنده ای که در مثال بالا ارائه کرده بودیم ، می‌دهیم. </p>
+
+```markdown
+class Animal:
+   def __init__(self, name):
+       self.name = name
+
+   def __str__(self):
+       return self.name
+
+   def __repr__(self):
+       return "<Animal: %s>" % self
+
+Animal.DOG = Animal("dog")
+Animal.CAT = Animal("cat")
+
+>>> x = Animal.DOG
+>>> x
+<Animal: dog>
+>>> x == 1
+False
 ```
 
 
