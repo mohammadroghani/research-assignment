@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-<style>
+<style type="text/css">
 @font-face {
   font-family: Samim;
   src: url('Samim.eot');
