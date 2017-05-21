@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<p dir="rtl">salam</p>
+<p dir="rtl">سلام خوبی چطوری؟</p>
 
 You can use the [editor on GitHub](https://github.com/mohammadroghani/research-assignment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
